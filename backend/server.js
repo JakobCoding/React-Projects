@@ -5,9 +5,7 @@ dotenv.config();
 
 const app = express();
 
-app.get("/", (req, res) => {
-    res.send("sever is ready");
-});
+app.get("/prducts", (req, res) => {});
 
 console.log(process.env.MONGO_URI);
 
